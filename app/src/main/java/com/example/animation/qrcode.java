@@ -299,7 +299,7 @@ public class qrcode extends AppCompatActivity {
                 Toasty.error(getApplicationContext(), "Email Failure", Toasty.LENGTH_LONG).show();
             else
             if(result.equals("error2"))
-                Toasty.error(getApplicationContext(), "Email Sent problem2", Toasty.LENGTH_LONG).show();
+                Toasty.error(getApplicationContext(), "Email Failure", Toasty.LENGTH_LONG).show();
 
         }
     }
