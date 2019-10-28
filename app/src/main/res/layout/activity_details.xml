@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272523"
+    tools:context=".Details">
+
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingLeft="50dp"
+                    android:text="PARTICIPANT 1"
+                    android:textColor="@android:color/background_light"
+                    android:textColorLink="#F1EBEB"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#5F5F5F"
+                    android:paddingLeft="5dp"
+                    android:ems="10"
+                    android:hint="Enter Name"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHint="@android:color/background_light"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="300dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingLeft="50dp"
+                    android:text="PARTICIPANT 2"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#5F5F5F"
+                    android:paddingLeft="5dp"
+                    android:ems="10"
+                    android:hint="Enter Name"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHint="@android:color/background_light"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="300dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingLeft="50dp"
+                    android:text="PARTICIPANT 3"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#5F5F5F"
+                    android:paddingLeft="5dp"
+                    android:ems="10"
+                    android:hint="Enter Name"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHint="@android:color/background_light"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="300dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingLeft="50dp"
+                    android:text="PARTICIPANT 4"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:paddingLeft="5dp"
+                    android:background="#5F5F5F"
+                    android:hint="Enter Name"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHint="@android:color/background_light"
+                    android:textSize="14sp" />
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="35dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButton3"
+                        android:layout_width="75dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:textColor="@android:color/background_light"
+                        android:text="FE"
+                        android:checked="true"
+                        android:buttonTint="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        android:layout_width="75dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:text="SE"
+                        android:buttonTint="@android:color/background_light"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                    <RadioButton
+                        android:id="@+id/radioButton5"
+                        android:layout_width="75dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:text="TE"
+                        android:buttonTint="@android:color/background_light"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                    <RadioButton
+                        android:id="@+id/radioButton6"
+                        android:layout_width="75dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:text="BE"
+                        android:buttonTint="@android:color/background_light"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="300dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingLeft="50dp"
+                    android:text="PHONE NUMBER 1"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:hint="Enter Number"
+                    android:paddingLeft="5dp"
+                    android:background="#5F5F5F"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHint="@android:color/background_light"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="300dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingLeft="50dp"
+                    android:text="PHONE NUMBER 2"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:hint="Enter Number"
+                    android:paddingLeft="5dp"
+                    android:background="#5F5F5F"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHint="@android:color/background_light"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="300dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingLeft="50dp"
+                    android:text="EMAIL 1"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:paddingLeft="5dp"
+                    android:hint="Enter Mail"
+                    android:background="#5F5F5F"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHint="@android:color/background_light"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="300dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingLeft="50dp"
+                    android:text="EMAIL 2"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:ems="10"
+                    android:background="#5F5F5F"
+                    android:hint="Enter Mail"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHint="@android:color/background_light"
+                    android:textSize="14dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="300dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="45dp">
+
+                    <RadioButton
+                        android:id="@+id/radioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="63dp"
+                        android:layout_weight="1"
+                        android:textColor="@android:color/background_light"
+                        android:buttonTint="@android:color/background_light"
+                        android:text="\t\t\t\tIEEE MEMBER"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="\t\t\t\tNON-IEEE MEMBER"
+                        android:buttonTint="@android:color/background_light"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingLeft="50dp"
+                    android:text="COLLEGE"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18dp" />
+
+                <!--<EditText-->
+                <!--android:id="@+id/editText9"-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="4dp"-->
+                <!--android:layout_marginLeft="50dp"-->
+                <!--android:ems="10"-->
+                <!--android:hint="Enter College"-->
+                <!--android:textSize="14dp"-->
+                <!--android:textColorHint="@android:color/background_dark"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:textColor="@android:color/background_dark" />-->
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#272523"
+                    />
+
+                <Button
+                    android:id="@+id/detailbutton"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#DA6B1F"
+                    android:text="Next"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

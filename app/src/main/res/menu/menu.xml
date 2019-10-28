@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Registered Events"
+            android:id="@+id/events"/>
+    <item android:title="Contact Us"
+            android:id="@+id/contactus"/>
+    <item android:title="Report a bug"
+            android:id="@+id/report"/>
+</menu>

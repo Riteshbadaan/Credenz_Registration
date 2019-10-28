@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "759200528744",
+    "firebase_url": "https://register-c4998.firebaseio.com",
+    "project_id": "register-c4998",
+    "storage_bucket": "register-c4998.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759200528744:android:fe1b6b6a41279836",
+        "android_client_info": {
+          "package_name": "com.example.animation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759200528744-dr759p292o6h0gmk0ihrolvf20euclp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASpXUxDz-Zr0yfGJ83XSxWYyh1RWXN8Ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759200528744-dr759p292o6h0gmk0ihrolvf20euclp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CREDENZ"'"19</string>
+    <string name="title_activity_fade_in">fade_in</string>
+    <string name="title_activity_qwerty">qwerty</string>
+    <string name="title">CREDENZ"'"19 Registration App</string>
+    <string name="link">
+        <a href="credenz.in">Credenz.in</a>
+    </string>
+</resources>
